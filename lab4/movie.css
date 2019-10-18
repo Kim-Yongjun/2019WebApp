@@ -29,8 +29,9 @@ dd{
   margin-bottom: 10pt;
 }
 
-li{
+li,ul{
   list-style-type: none;
+  padding-left: 0px;
 }
 
 
