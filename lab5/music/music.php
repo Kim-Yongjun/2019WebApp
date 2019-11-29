@@ -65,6 +65,15 @@
 		</div>
 		
 		<!-- Ex 6: Music (Multiple Files) -->
+		<?php $musics = glob("lab5/musicPHP/songs/*.mp3");
+		print_r($musics);
+		?>
+		<ul>
+			<?php foreach($musics as $music){ ?>
+				<li><?=$music?> </li>
+			<?php }?>
+		</ul>
+
 		<!-- Ex 7: MP3 Formatting -->
 		<div class="section">
 			<h2>My Music and Playlists</h2>
